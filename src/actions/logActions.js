@@ -17,6 +17,8 @@ import {
 //         });
 //     }
 // }
+
+// Get logs from Server
 export const getLogs = () => async dispatch => {
     try {
         setLoading();
